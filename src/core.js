@@ -2,7 +2,7 @@
 const person = { age: 32, size: 'Small' }
 
 // 1. Give the person object a name property with the value Matt
-person.name = "Matt"
+person.name = 'Matt'
 
 // 2. Remove the size property from the person
 delete person.size
@@ -14,17 +14,17 @@ person.age += 11
 person.instruments = []
 
 // 5. Add the following instruments to the persons instruments array: Guitar, Piano, Vocals
-person.instruments.push("Guitar", "Piano", "Vocals")
+person.instruments.push('Guitar', 'Piano', 'Vocals')
 
 // 6. Using an index on the instruments array, set the mainInstrument variable below
 // to the third instrument in the array
 const mainInstrument = person.instruments[2]
 
 // 7. Add a profession property to the person, which is an object
-person.profession = { }
+person.profession = {}
 
 // 8. Add a name property to the profession object with the value Musician
-person.profession.name = "Musician"
+person.profession.name = 'Musician'
 
 // 9. Add a friends property to the person, which is an empty array
 person.friends = []
@@ -32,13 +32,13 @@ person.friends = []
 // 10. Add two objects to the persons friends array with the following properties:
 // Friend one: name - Chris, age - 46
 // Friend two: name - Dom, age - 43
-person.friends.push({ 
-  name: "Chris",
+person.friends.push({
+  name: 'Chris',
   age: 46
 })
 
 person.friends.push({
-  name: "Dom", 
+  name: 'Dom',
   age: 43
 })
 
